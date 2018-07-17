@@ -1,0 +1,67 @@
+@import 'partials/reset';
+
+
+
+//Base styles ---------- //
+body, html {
+  font-family: 'Helvetica Neue';
+  box-sizing: border-box;
+  color: black;
+}
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: black;
+  }
+}
+
+//Header Section ----- //
+header {
+  background-image: url("../images/beach.jpg");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  position: relative;
+  nav {
+    position: absolute;
+    top: 1.5rem;
+    li {
+      padding-right: 1rem;
+      padding-left: 1rem;
+    }
+  }
+}
+h1 {
+  font-size: 5.5rem;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.section-one {
+  background-image: url("../images/clouds.jpg");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  img {
+    width: 25%;
+  }
+}
+
+.section-two {
+  background-image: url("../images/casual.jpg");
+  height: 100vh;
+  background-position: bottom;
+  background-size: cover;
+  img {
+    width: 35%;
+  }
+}
+
+footer {
+  background-color: white;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
