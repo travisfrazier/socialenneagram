@@ -93,6 +93,7 @@ header {
   height: 100vh;
   background-position: bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
   display: flex;
   align-items: center;
@@ -110,7 +111,7 @@ h1 {
   height: 100vh; }
 
 .section-one {
-  background-image: url("../images/clouds.jpg");
+  background-image: url("../images/chill.jpg");
   background-position: bottom; }
   .section-one img {
     width: 25%; }
