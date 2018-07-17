@@ -18,12 +18,39 @@ a {
 }
 
 //Header and Nav Section ----- //
+.mobile-menu {
+  position: fixed;
+  top: 1rem;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  img {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+//Toggle mobile menu 
+.block {
+  display: block !important;
+}
 nav {
-  @media only screen and (max-width: 600px) {
-    display: none !important;
+  position: fixed;
+  z-index: 999;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+  height: 100vh;
+  display: none;
+  ul {
+    //display: flex;
+    justify-content: center;
+    text-align: center;
   }
   li {
-    padding: 1rem;
+    padding: 0.5rem;
   }
 }
 header {
@@ -32,22 +59,28 @@ header {
   background-position: bottom;
   background-size: cover;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 h1 {
-  font-size: 5.5rem;
+  font-size: 3rem;
   font-weight: bolder;
   color: #ffffff;
-  @media only screen and (max-width: 600px) {
-    font-size: 3rem;
-  }
 }
 
 //Section Start ----- //
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  height: 100vh;
+}
+
 .section-one {
   background-image: url("../images/clouds.jpg");
-  height: 100vh;
   background-position: bottom;
-  background-size: cover;
   img {
     width: 25%;
     @media only screen and (max-width: 600px) {
@@ -58,9 +91,7 @@ h1 {
 
 .section-two {
   background-image: url("../images/casual.jpg");
-  height: 100vh;
   background-position: bottom;
-  background-size: cover;
   img {
     width: 35%;
     @media only screen and (max-width: 600px) {
@@ -68,9 +99,11 @@ h1 {
     }
   }
 }
-
+//Footer Section ----- //
 footer {
   background-color: white;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
