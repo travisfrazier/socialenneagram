@@ -99,9 +99,8 @@ header {
   justify-content: center; }
 
 h1 {
-  font-size: 3rem;
-  font-weight: bolder;
-  color: #ffffff; }
+  font-size: 2.75rem;
+  font-weight: bolder; }
 
 .section {
   display: flex;
