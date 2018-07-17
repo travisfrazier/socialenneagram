@@ -57,6 +57,9 @@ a {
   a:visited {
     color: black; }
 
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none !important; } }
 nav li {
   padding: 1rem; }
 

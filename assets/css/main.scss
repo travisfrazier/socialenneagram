@@ -19,6 +19,9 @@ a {
 
 //Header and Nav Section ----- //
 nav {
+  @media only screen and (max-width: 600px) {
+    display: none !important;
+  }
   li {
     padding: 1rem;
   }
