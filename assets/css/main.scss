@@ -1,6 +1,5 @@
+//Import CSS reset file
 @import 'partials/reset';
-
-
 
 //Base styles ---------- //
 body, html {
@@ -18,28 +17,29 @@ a {
   }
 }
 
-//Header Section ----- //
+//Header and Nav Section ----- //
+nav {
+  li {
+    padding: 1rem;
+  }
+}
 header {
   background-image: url("../images/beach.jpg");
   height: 100vh;
   background-position: bottom;
   background-size: cover;
   position: relative;
-  nav {
-    position: absolute;
-    top: 1.5rem;
-    li {
-      padding-right: 1rem;
-      padding-left: 1rem;
-    }
-  }
 }
 h1 {
   font-size: 5.5rem;
   font-weight: bolder;
   color: #ffffff;
+  @media only screen and (max-width: 600px) {
+    font-size: 3rem;
+  }
 }
 
+//Section Start ----- //
 .section-one {
   background-image: url("../images/clouds.jpg");
   height: 100vh;
@@ -47,6 +47,9 @@ h1 {
   background-size: cover;
   img {
     width: 25%;
+    @media only screen and (max-width: 600px) {
+      width: 55%;
+    }
   }
 }
 
@@ -57,6 +60,9 @@ h1 {
   background-size: cover;
   img {
     width: 35%;
+    @media only screen and (max-width: 600px) {
+      width: 55%;
+    }
   }
 }
 

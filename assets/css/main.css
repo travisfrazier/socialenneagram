@@ -57,23 +57,23 @@ a {
   a:visited {
     color: black; }
 
+nav li {
+  padding: 1rem; }
+
 header {
   background-image: url("../images/beach.jpg");
   height: 100vh;
   background-position: bottom;
   background-size: cover;
   position: relative; }
-  header nav {
-    position: absolute;
-    top: 1.5rem; }
-    header nav li {
-      padding-right: 1rem;
-      padding-left: 1rem; }
 
 h1 {
   font-size: 5.5rem;
   font-weight: bolder;
   color: #ffffff; }
+  @media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 3rem; } }
 
 .section-one {
   background-image: url("../images/clouds.jpg");
@@ -82,6 +82,9 @@ h1 {
   background-size: cover; }
   .section-one img {
     width: 25%; }
+    @media only screen and (max-width: 600px) {
+      .section-one img {
+        width: 55%; } }
 
 .section-two {
   background-image: url("../images/casual.jpg");
@@ -90,6 +93,9 @@ h1 {
   background-size: cover; }
   .section-two img {
     width: 35%; }
+    @media only screen and (max-width: 600px) {
+      .section-two img {
+        width: 55%; } }
 
 footer {
   background-color: white;
