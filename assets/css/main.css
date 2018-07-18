@@ -52,11 +52,14 @@ table {
   border-spacing: 0;
 }
 
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 body,
 html {
   font-family: "Helvetica Neue";
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
   color: black;
 }
 
@@ -237,37 +240,43 @@ h1 {
   margin-bottom: 2rem;
 }
 
-.section-four form {
-  width: 90%;
+.form-wrapper {
+  max-width: 90%;
+  margin: auto;
 }
 
-.section-four form label {
+form {
+  width: 100%;
+}
+
+form label {
   display: block;
   margin-bottom: 8px;
   font-size: 1.25rem;
 }
 
-.section-four form fieldset {
+form fieldset {
+  width: 100%;
   padding: 0;
+  border: none;
 }
 
-.section-four form input,
-.section-four form textarea {
+form input,
+form textarea {
   background-color: #d4d4d4;
   width: 100%;
-  display: inline;
   border-radius: 5px;
   border: none;
   font-size: 1rem;
   height: 6rem;
 }
 
-.section-four form input {
+form input {
   height: 3.25rem;
   margin-bottom: 1rem;
 }
 
-.section-four form button {
+form button {
   width: 25%;
   height: 3.25rem;
   border: none;
