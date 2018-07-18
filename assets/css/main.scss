@@ -1,9 +1,10 @@
 //Import CSS reset file
-@import 'partials/reset';
+@import "partials/reset";
 
 //Base styles ---------- //
-body, html {
-  font-family: 'Helvetica Neue';
+body,
+html {
+  font-family: "Helvetica Neue";
   box-sizing: border-box;
   color: black;
 }
@@ -16,6 +17,9 @@ a {
   &:visited {
     color: black;
   }
+}
+p {
+  font-size: 1.25rem;
 }
 
 //Header and Nav Section ----- //
@@ -31,10 +35,12 @@ a {
     height: 2rem;
   }
 }
-//Toggle mobile menu 
+
+//Toggle mobile menu
 .block {
   display: block !important;
 }
+//Nav section ----- //
 nav {
   position: fixed;
   z-index: 999;
@@ -68,21 +74,21 @@ header {
 h1 {
   font-size: 2.75rem;
   font-weight: bolder;
-  //color: #ffffff;
+  color: #ffffff;
 }
 
-//Section Start ----- //
+//Sections Start ----- //
 .section {
   display: flex;
   justify-content: center;
   align-items: center;
   background-size: cover;
-  height: 100vh;
 }
 
 .section-one {
   background-image: url("../images/chill.jpg");
   background-position: bottom;
+  height: 100vh;
   img {
     width: 25%;
     @media only screen and (max-width: 600px) {
@@ -90,14 +96,80 @@ h1 {
     }
   }
 }
-
 .section-two {
   background-image: url("../images/casual.jpg");
   background-position: bottom;
+  height: 100vh;
   img {
     width: 35%;
     @media only screen and (max-width: 600px) {
       width: 55%;
+    }
+  }
+}
+
+.section-three {
+  flex-direction: column;
+  img {
+    padding-top: 5rem;
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  p {
+    width: 90%;
+  }
+}
+
+.section-four {
+  flex-direction: column;
+  h2 {
+    //padding-top: 1rem;
+    color: black;
+    font-size: 2rem;
+    display: inline;
+    margin-bottom: 2rem;
+  }
+  img {
+    width: 100%;
+    padding-top: 5rem;
+  }
+  p {
+    width: 90%;
+    margin-bottom: 2rem;
+  }
+  form {
+    width: 90%;
+    label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 1.25rem;
+    }
+    fieldset {
+      padding: 0;
+    }
+    input,
+    textarea {
+      background-color: #d4d4d4;
+      width: 100%;
+      display: inline;
+      border-radius: 5px;
+      border: none;
+      font-size: 1rem;
+      height: 6rem;
+    }
+    input {
+      height: 3.25rem;
+      margin-bottom: 1rem;
+    }
+    button {
+      width: 25%;
+      height: 3.25rem;
+      border: none;
+      border-radius: 5px;
+      background-color: black;
+      color: white;
+      font-size: 1.25rem;
+      margin-top: 1rem;
     }
   }
 }
