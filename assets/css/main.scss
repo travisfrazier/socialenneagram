@@ -144,9 +144,11 @@ h1 {
     width: 90%;
     margin-bottom: 2rem;
   }
-  form {
+  .form-wrapper {
     max-width: 90%;
     margin: auto;
+  }
+  form {
     label {
       display: block;
       margin-bottom: 8px;
@@ -154,6 +156,7 @@ h1 {
     }
     fieldset {
       padding: 0;
+      border: none;
     }
     input,
     textarea {
