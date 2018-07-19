@@ -74,6 +74,7 @@ header {
   background-repeat: no-repeat;
   position: relative;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   img {
@@ -203,6 +204,11 @@ form {
   }
 }
 //Footer Section ----- //
+.home-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 footer {
   background-color: white;
   padding-top: 2rem;
