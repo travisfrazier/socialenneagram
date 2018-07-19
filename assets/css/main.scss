@@ -210,3 +210,29 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+// Arrows
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  z-index: 998;
+  margin-top: -50px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 10px 20px 10px 0;
+  border-color: transparent black transparent transparent;
+  left: 0;
+  margin-left: 10px;
+}
+
+#arrow-right {
+  border-width: 10px 0 10px 20px;
+  border-color: transparent transparent transparent black;
+  right: 0;
+  margin-right: 10px;
+}
