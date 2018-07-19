@@ -52,7 +52,9 @@ table {
   border-spacing: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -225,7 +227,7 @@ h1 {
   color: black;
   font-size: 2rem;
   display: inline;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   text-align: left;
   width: 90%;
 }
@@ -233,7 +235,7 @@ h1 {
 .section-four img {
   width: 100%;
   padding-top: 5rem;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 .section-four p {
@@ -253,7 +255,7 @@ form {
 form label {
   display: block;
   margin-bottom: 8px;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 form fieldset {
