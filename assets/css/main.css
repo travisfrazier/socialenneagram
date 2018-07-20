@@ -52,7 +52,9 @@ table {
   border-spacing: 0;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -211,38 +213,38 @@ h1 {
           flex-direction: column;
 }
 
-.section-one {
+.banner-two {
   background-image: url("../images/chill.jpg");
   height: 100vh;
 }
 
-.section-one img {
+.banner-two img {
   width: 55%;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-one img {
+  .banner-two img {
     width: 23%;
   }
 }
 
-.section-two {
+.banner-three {
   background-image: url("../images/casual.jpg");
   height: 100vh;
 }
 
-.section-two img {
+.banner-three img {
   width: 70%;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-two img {
+  .banner-three img {
     width: 33%;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three {
+  .about-us {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -255,30 +257,30 @@ h1 {
   }
 }
 
-.section-three img {
+.about-us img {
   padding-top: 6rem;
   width: 90%;
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three img {
+  .about-us img {
     width: 50%;
   }
 }
 
-.section-three p {
+.about-us p {
   width: 90%;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three p {
+  .about-us p {
     width: 50%;
     margin-left: 1rem;
   }
 }
 
-.section-three-one {
+.about-us-two {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -286,7 +288,7 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three-one {
+  .about-us-two {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -299,37 +301,37 @@ h1 {
   }
 }
 
-.section-three-one img {
+.about-us-two img {
   padding-top: 3rem;
   width: 90%;
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three-one img {
+  .about-us-two img {
     width: 50%;
   }
 }
 
-.section-three-one p {
+.about-us-two p {
   width: 90%;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-three-one p {
+  .about-us-two p {
     width: 50%;
     margin-right: 1rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
-  .section-four {
+  .contact {
     max-width: 960px;
     margin: 0 auto;
   }
 }
 
-.section-four h2 {
+.contact h2 {
   color: black;
   font-size: 2rem;
   display: inline;
@@ -339,30 +341,30 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  .section-four h2 {
+  .contact h2 {
     width: auto;
   }
 }
 
-.section-four img {
+.contact img {
   width: 100%;
   padding-top: 5rem;
   margin-bottom: 3rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-four img {
+  .contact img {
     width: 55%;
   }
 }
 
-.section-four p {
+.contact p {
   width: 90%;
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-four p {
+  .contact p {
     width: 60%;
     display: inline;
   }
@@ -423,32 +425,32 @@ form button {
 }
 
 @media only screen and (min-width: 768px) {
-  .section-five {
+  .enneagram {
     max-width: 960px;
     margin: 0 auto;
   }
 }
 
-.section-five img {
+.enneagram img {
   width: 100%;
   padding-top: 5rem;
   margin-bottom: 2rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-five img {
+  .enneagram img {
     width: 75%;
     padding-top: 3rem;
   }
 }
 
-.section-five p {
+.enneagram p {
   width: 90%;
   margin-bottom: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
-  .section-five p {
+  .enneagram p {
     width: 80%;
   }
 }

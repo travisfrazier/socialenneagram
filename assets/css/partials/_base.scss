@@ -1,0 +1,27 @@
+//Base styles ---------- //
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body,
+html {
+  font-family: "Helvetica Neue";
+  color: black;
+  padding-bottom: 1.75rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  &:hover {
+    text-decoration: none;
+  }
+  &:visited {
+    color: black;
+  }
+}
+p {
+  font-size: 1rem;
+}
